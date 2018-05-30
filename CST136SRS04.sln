@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Atoll", "Atoll\Atoll.vcxproj", "{96ACD309-3597-49F4-BE2C-1FE8D27128A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D12DF38-48CA-4133-88E5-1CC64C8905DA}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		REPORT.md = REPORT.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Debug|x64.ActiveCfg = Debug|x64
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Debug|x64.Build.0 = Debug|x64
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Debug|x86.Build.0 = Debug|Win32
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Release|x64.ActiveCfg = Release|x64
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Release|x64.Build.0 = Release|x64
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Release|x86.ActiveCfg = Release|Win32
+		{96ACD309-3597-49F4-BE2C-1FE8D27128A5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3509F51D-411D-411E-B2CB-04EEC083A566}
+	EndGlobalSection
+EndGlobal
