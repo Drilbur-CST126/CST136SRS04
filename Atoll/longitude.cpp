@@ -4,7 +4,7 @@
 
 namespace GPS
 {
-	Longitude::Longitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second) :
+	Longitude::Longitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second) noexcept :
 	Angle<-180, 180>(degree, minute, second),
 	cardinal_ { cardinal }
 	{

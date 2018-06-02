@@ -11,8 +11,8 @@ private:
 	value_type value_ { max };
 
 public:
-	Range(const value_type value) : 
-	value_ { max } // Initialize to unusable value in case value is out of bounds
+	// Explicitly not explicit; makes managing the Range far easier than having to consistantly call setValue()
+	Range(const value_type value) // Initialize to unusable value in case value is out of bounds
 	{
 		setValue(value);
 	}

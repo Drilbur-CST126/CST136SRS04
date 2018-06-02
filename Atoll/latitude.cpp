@@ -3,7 +3,7 @@
 
 namespace GPS
 {
-	Latitude::Latitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second) :
+	Latitude::Latitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second) noexcept :
 	Angle<-89, 90>(degree, minute, second),
 	cardinal_ { cardinal }
 	{

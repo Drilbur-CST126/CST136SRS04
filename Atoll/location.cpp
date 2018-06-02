@@ -1,7 +1,7 @@
 #include "stdafx.h"
 #include "location.h"
 
-GPS::Location::Location(const std::string name, const Latitude latitude, const Longitude longitude) :
+GPS::Location::Location(const std::string name, const Latitude latitude, const Longitude longitude) noexcept :
 name_ { name },
 latitude_ { latitude },
 longitude_ { longitude }
@@ -52,7 +52,7 @@ std::string GPS::Location::getName() const noexcept
 
 GPS::Location::SortDir GPS::Location::sortDir;
 
-void GPS::Location::setSortDir(const SortDir dir)
+void GPS::Location::setSortDir(const SortDir dir) noexcept
 {
 	sortDir = dir;
 }

@@ -8,11 +8,11 @@ namespace GPS
 	public:
 		enum class Cardinal { W = -1, E = +1 };
 
-		Longitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second);
+		Longitude(const Cardinal cardinal, const degree_type degree, const minute_type minute, const second_type second) noexcept;
 
 		bool operator<(const Longitude&) const noexcept;
 
 	private:
-		Cardinal cardinal_;
+		const Cardinal cardinal_;
 	};
 }

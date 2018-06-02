@@ -17,14 +17,14 @@ namespace GPS
 	public:
 		enum class SortDir { kVertical, kHorizontal, kUnknown };
 
-		Location(const std::string name, const Latitude latitude, const Longitude longitude);
+		Location(const std::string name, const Latitude latitude, const Longitude longitude) noexcept;
 
 		bool operator<(const Location&) const;
 
 		double getDistance(const Location& dest) const noexcept;
 		std::string getName() const noexcept;
 
-		static void setSortDir(const SortDir dir);
+		static void setSortDir(const SortDir dir) noexcept;
 
 		static constexpr std::size_t numIslands = 12;
 

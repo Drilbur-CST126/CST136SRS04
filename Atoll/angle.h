@@ -32,7 +32,7 @@ namespace GPS
 		Angle& operator=(Angle&&) = default;*/
 		virtual ~Angle() = default;
 
-		Angle(const degree_type degree, const minute_type minute, const second_type second) : 
+		Angle(const degree_type degree, const minute_type minute, const second_type second) noexcept : 
 		degree_ { degree },
 		minute_ { minute },
 		second_ { second }
