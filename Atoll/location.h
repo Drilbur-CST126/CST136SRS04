@@ -8,9 +8,9 @@ namespace GPS
 	class Location
 	{
 	private:
-		std::string name_;
-		Latitude latitude_;
-		Longitude longitude_;
+		const std::string name_;
+		const Latitude latitude_;
+		const Longitude longitude_;
 
 		//friend void swap(GPS::Location& a, GPS::Location& b) noexcept;
 
